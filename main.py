@@ -15,9 +15,10 @@ db= mysql.connector.connect(
     host='academia.c1mebdhdxytu.us-east-1.rds.amazonaws.com',
     user='p6',
     password='ALrUBIaLYcHR',
-    database='p6',
-    port=3306
+    database='p6'
+
 ) 
+
 db.autocommit=True
 
 app = Flask(__name__)
