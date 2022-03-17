@@ -4,13 +4,20 @@ import mysql.connector
 import random
 import string
 
-db= mysql.connector.connect(
+""" db= mysql.connector.connect(
     host='localhost',
     user='root',
     password='',
     database='url',
     port=3306
-)
+) """
+db= mysql.connector.connect(
+    host='academia.c1mebdhdxytu.us-east-1.rds.amazonaws.com',
+    user='p6',
+    password='ALrUBIaLYcHR',
+    database='p6',
+    port=3306
+) 
 db.autocommit=True
 
 app = Flask(__name__)
@@ -42,5 +49,5 @@ def redireccionar(url_cort):
     return redirect(result[0])
 
 
-app.run(debug=True)
-
+""" app.run(debug=True)
+ """

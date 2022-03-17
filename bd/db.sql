@@ -13,9 +13,6 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 
--- Volcando estructura de base de datos para url
-CREATE DATABASE IF NOT EXISTS `url` /*!40100 DEFAULT CHARACTER SET utf8 */;
-USE `url`;
 
 -- Volcando estructura para tabla url.acortador
 CREATE TABLE IF NOT EXISTS `acortador` (
